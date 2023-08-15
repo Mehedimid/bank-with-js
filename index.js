@@ -9,7 +9,7 @@ button.addEventListener('click', function(event){
   console.log(getEV, getpv)
 
   if(getEV === 'x@g.com' && getpv === 'secret'){
-    location.href = 'http://127.0.0.1:5500/deposit.html';
+    location.href = 'https://mehedimid.github.io/bank-with-js/deposit';
   }else{
     alert('invalid user or password')
   }
